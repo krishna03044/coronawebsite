@@ -1,0 +1,27 @@
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+}
+ul li a {
+    text-transform: uppercase;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+a:hover{
+    border-bottom: 2px solid red;
+}
+.header{
+    height: 500px;
+    padding:20px ;
+  background: url("Coronavirus-1.jpg");
+}
+.header .content{
+    position: relative;
+    top:50%;
+    text-align: center;
+}
